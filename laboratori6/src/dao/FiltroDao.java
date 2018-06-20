@@ -16,10 +16,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import modelo.Filtro;
 
-/**
- *
- * @author LN710Q
- */
+
 public class FiltroDao implements metodos <Filtro> {
     private static final String SQL_INSERT = "INSERT INTO filtros_aceite (codFiltro, marca,stock,existencia) VALUES(?,?,?,?)" ;
     private static final String SQL_UPDATE = "UPDATE filtros_aceite SET marca=? , stock=?, existencia=? WHERE codFiltro=?" ;

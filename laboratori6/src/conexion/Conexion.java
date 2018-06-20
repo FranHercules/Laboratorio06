@@ -11,10 +11,7 @@ import java.sql.SQLException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-/**
- *
- * @author LN710Q
- */
+
 public class Conexion {
     private String user;
     private String pass;

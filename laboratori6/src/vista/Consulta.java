@@ -14,10 +14,7 @@ import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import modelo.Filtro;
 
-/**
- *
- * @author LN710Q
- */
+
 public class Consulta extends JFrame {
     public JLabel lblCodigo , lblMarca , lblStock , lblExistencia;
     public JTextField codigo,descripcion, stock;
